@@ -33,7 +33,7 @@ export default function LoginPage() {
     }
 
     try {
-      const res = await axios.post("http://localhost:8000/auth/login", {
+      const res = await axios.post("https://money-plus-back.vercel.app/login", {
         email,
         password,
       });

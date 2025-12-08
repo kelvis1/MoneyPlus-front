@@ -36,7 +36,7 @@ export default function Register() {
     }
 
     try {
-      const response = await axios.post("http://localhost:8000/auth/registro", {
+      const response = await axios.post("https://money-plus-back.vercel.app/registro", {
         name,
         email,
         password,
