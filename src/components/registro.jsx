@@ -197,7 +197,7 @@ export default function Register() {
                 width={22}
                 alt="Google"
               />
-              Em desenvolvimento
+              Em Desv
             </Button>
 
             <Button fullWidth variant="outlined" sx={{ height: 48, gap: 1 }}>
@@ -206,7 +206,7 @@ export default function Register() {
                 width={22}
                 alt="GitHub"
               />
-              Em desenvolvimento
+              Em Desv
             </Button>
           </Stack>
 
